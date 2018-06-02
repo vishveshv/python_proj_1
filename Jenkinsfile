@@ -2,7 +2,6 @@
 pipeline
 {
   agent any
-  ClearWS
   stages
   {
    stage('build')
