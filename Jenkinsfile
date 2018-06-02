@@ -1,16 +1,1 @@
-@Library('python_compile') _
-pipeline
-{
-  agent any
-  stages
-  {
-   stage('build')
-   {
-    steps
-     {
-       // sh(libraryResource('com/nvidia/python.sh'))
-       python_compile('python_proj_1')
-     }
-   }
-  }
-}
+pythonPipeline(git@github.com:vishveshv/python_proj_1.git)
