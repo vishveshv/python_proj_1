@@ -1,1 +1,1 @@
-pythonPipeline(git@github.com:vishveshv/python_proj_1.git)
+pythonPipeline('git@github.com:vishveshv/python_proj_1.git')
