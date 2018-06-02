@@ -9,7 +9,7 @@ pipeline
    {
     steps
      {
-       sh(libraryResource('com/nvidia/python.sh')
+       sh(libraryResource('com/nvidia/python.sh'))
      }
    }
   }
