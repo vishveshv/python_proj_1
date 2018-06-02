@@ -9,7 +9,7 @@ pipeline
     steps
      {
        // sh(libraryResource('com/nvidia/python.sh'))
-       python_compile()
+       python_compile('python_proj_1')
      }
    }
   }
