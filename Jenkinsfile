@@ -1,13 +1,15 @@
+@Library('python_compile') _
 pipeline
 {
   agent any
+  ClearWS
   stages
   {
    stage('build')
    {
     steps
      {
-       sh 'find . -name *.py | xargs python'
+       sh(libraryResource('com/nvidia/python.sh')
      }
    }
   }
